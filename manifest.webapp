@@ -1,0 +1,14 @@
+{
+  "name": "Text Reader",
+  "description": "Text Reader which converts text to speech",
+  "launch_path": "/text-reader.html",
+  "icons": {
+    "512": "/img/ws512.png",
+    "128": "/img/ws128.png"
+  },
+  "developer": {
+    "name": "Siddharth Pandey",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"
+  },
+  "default_locale": "en"
+}
