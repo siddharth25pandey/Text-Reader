@@ -14,11 +14,26 @@ body {
     background-image: url(img/back.jpg);
 }
 
+.inputfile {
+    color: blueviolet;
+    padding: 100px;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 20px;
     color: blue;
+    text-align: center;
+    text-emphasis: bold;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    color: red;
     text-align: center;
     text-emphasis: bold;
     font-size: 30px;
@@ -31,6 +46,7 @@ p {
 }
 
 .txt,
+.abc,
 select,
 form>div {
     display: block;
@@ -41,7 +57,8 @@ form>div {
     color: black;
 }
 
-.txt {
+.txt,
+.abc {
     width: 80%;
     color: black;
     background-color: greenyellow;
@@ -58,7 +75,7 @@ form>div {
 }
 
 .txt,
-form>div {
+.abc form>div {
     margin-bottom: 10px;
     overflow: auto;
 }
