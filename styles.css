@@ -1,0 +1,106 @@
+h1{
+	font-size: 5em;
+	font-family: Annie Use Your Telescope;
+}
+
+p{
+	font-size: 1em;
+}
+
+body{
+	font-family: arial,sans-serif;
+	color: #f9a602;
+	font-weight: bolder;
+	user-select: none;
+}
+
+nav h1{
+	float: left;
+	position: absolute;
+	left: 15px;
+	color: #f9a602;
+	font-family: Annie Use Your Telescope;
+}
+
+.nav-link; active{
+	color: black;
+}
+
+#section1{
+	background-image: url("img/back.jpg");
+	height : auto;
+	padding-top:70px;
+	padding-bottom:70px
+}
+
+
+#maintalk{
+	margin: 5vh auto 10vh;
+	border: 5px solid white;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+}
+
+#maintalk h1{
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 5em;
+}
+
+#maintalk p{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;	
+}
+
+
+#runbtn{
+	text-align: center;
+	color: #f9a602;
+	font-weight: bolder;
+	font-size: 2em;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 30px;
+}
+
+
+#section2{
+	background-image: url("img/back.jpg");
+	width: 50vw;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+}
+
+#section2,#section3{
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#inputfile{
+	color: #fff;
+}
+
+
+#play{
+	color: #f9a602;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+label{
+	color: #fff;
+	font-size: 1.5em;
+}
+
+#section3{
+	color: #fff;
+	background-image: url("img/back.jpg");
+}

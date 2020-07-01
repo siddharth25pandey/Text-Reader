@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+
+<head>
+  <title>TheWiseOwl.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+
+
+<body>
+
+<div id="section1" class="container-fluid">
+  <div id="maintalk" class="container">
+   <div class="d-flex justify-content-center"><img id="align" src="img/ullu.png" height="200px" width="200px"></div>
+   <div class="d-flex justify-content-center"><h1>WELCOME FOLKS!</h1></div>
+   <div class="d-flex justify-content-center"><p>Give your thoughts a voice with our new venture</p></div>
+   <div class="d-flex justify-content-center"><a id="runbtn" href="#section2p">TRY IT</a></div>
+  </div>
+</div>
+
+<div id="section2p" class="container-fluid">
+</div>
+
+<div id="section2" class="container d-flex justify-content-center">
+ <form>
+    
+    <input type="file" name="inputfile" id="inputfile" class="container d-flex justify-content-center"> 
+    <br>
+    <hr>
+    <textarea class="abc container d-flex justify-content-center" id="output" rows="8" columns="30"></textarea>
+    <br>
+    <div>
+      <label for="rate">Rate</label><input type="range" class="form-control-range" min="0.5" max="2" value="1" step="0.1" id="rate">
+    </div>
+    <br>
+    <div>
+      <label for="pitch">Pitch</label><input type="range" class="form-control-range" min="0" max="2" value="1" step="0.1" id="pitch">
+    </div>
+    <br>
+    <select>
+
+    </select>
+    <hr>
+    <div class="controls container d-flex justify-content-center">
+      <button id="play" class="container d-flex justify-content-center btn btn-light" type="submit">Play</button>
+    </div>
+    </form>
+</div>
+
+
+<div id="section3" class="container-fluid">
+  <h1><u>About Us</u></h1>
+  <p>The site is the manifestation of the effort put forth by me and my team-mate. ' The glib owl ' is basically a text-to-speech convertor (fondly called as tts) and helps converting text to speech. It uses a translator and a speech-synthesiser in the background for the purpose of analysis of the text and finally for its conversion. The application involves speech synthesis in myriad languages and you have a choice over the accent and the language of what you enter. We are currently pursuing our B.Tech in CSE and took up this project as an experiment to stack up some idea on APIs and also to try our hands on web designing(a dream of every freshman :) ).</p>
+  <p>I would like to say that the output may not be that cool when compared to other typical projects, but the effort put forth by us is commendable (not showing pride, pals!). So do check it out. Any suggestions are welcome.</p>
+</div>
+
+<script src="server.js"></script>
+
+</body>
+
+</html>
