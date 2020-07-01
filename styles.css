@@ -68,7 +68,6 @@ nav h1{
 	border-radius: 30px;
 }
 
-
 #section2{
 	background-image: url("img/back.jpg");
 	width: 50vw;
@@ -92,12 +91,12 @@ nav h1{
 	color: #f9a602;
 	font-size: 1.5em;
 	font-weight: bold;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 label{
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 #section3{
