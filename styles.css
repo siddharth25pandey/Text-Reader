@@ -16,7 +16,7 @@ body {
     color: #f9a602;
     font-weight: bolder;
     user-select: none;
-    background-image: url(img/back.jpg);
+    
 }
 
 nav h1 {
@@ -76,7 +76,7 @@ nav h1 {
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
-    background-image: url("img/backg.jpg");
+    background-image: url(img/back.jpg);
 }
 
 #section2,
