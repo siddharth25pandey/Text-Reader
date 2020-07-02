@@ -1,105 +1,108 @@
-h1{
-	font-size: 5em;
-	font-family: Annie Use Your Telescope;
+h1 {
+    font-size: 5em;
+    font-family: Annie Use Your Telescope;
 }
 
-p{
-	font-size: 1em;
+p {
+    font-size: 1em;
 }
 
-body{
-	font-family: arial,sans-serif;
-	color: #f9a602;
-	font-weight: bolder;
-	user-select: none;
+#f {
+    color: red;
 }
 
-nav h1{
-	float: left;
-	position: absolute;
-	left: 15px;
-	color: #f9a602;
-	font-family: Annie Use Your Telescope;
+body {
+    font-family: arial, sans-serif;
+    color: #f9a602;
+    font-weight: bolder;
+    user-select: none;
+    background-image: url(img/back.jpg);
 }
 
-.nav-link; active{
-	color: black;
+nav h1 {
+    float: left;
+    position: absolute;
+    left: 15px;
+    color: #f9a602;
+    font-family: Annie Use Your Telescope;
 }
 
-#section1{
-	background-image: url("img/back.jpg");
-	height : auto;
-	padding-top:70px;
-	padding-bottom:70px
+.nav-linkactive {
+    color: black;
 }
 
-
-#maintalk{
-	margin: 5vh auto 10vh;
-	border: 5px solid white;
-	height: auto;
-	padding-top: 30px;
-	padding-bottom: 30px; 
+#section1 {
+    background-image: url("img/back.jpg");
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px
 }
 
-#maintalk h1{
-	color: white;
-	text-align: center;
-	font-weight: bolder;
-	font-size: 5em;
+#maintalk {
+    margin: 5vh auto 10vh;
+    border: 5px solid white;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#maintalk p{
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	font-size: 2em;	
+#maintalk h1 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5em;
 }
 
-
-#runbtn{
-	text-align: center;
-	color: #f9a602;
-	font-weight: bolder;
-	font-size: 2em;
-	padding: 10px;
-	background-color: white;
-	border: 1px solid white;
-	border-radius: 30px;
+#maintalk p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
 }
 
-#section2{
-	background-image: url("img/back.jpg");
-	width: 50vw;
-	margin-right: auto;
-	margin-left: auto;
-	border-radius: 10px;
+#runbtn {
+    text-align: center;
+    color: #f9a602;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
 }
 
-#section2,#section3{
-	margin-top: 30px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+#section2 {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    background-image: url("img/backg.jpg");
 }
 
-#inputfile{
-	color: #fff;
+#section2,
+#section3 {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-
-#play{
-	color: #f9a602;
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-top: 10px;
+#inputfile {
+    color: #fff;
 }
 
-label{
-	color: #fff;
-	font-size: 1em;
+#play {
+    color: #f9a602;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-#section3{
-	color: #fff;
-	background-image: url("img/back.jpg");
+label {
+    color: #fff;
+    font-size: 1em;
+}
+
+#section3 {
+    color: #fff;
+    background-image: url("img/back.jpg");
 }
